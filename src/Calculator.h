@@ -8,7 +8,7 @@
 #ifndef CALCULATOR_H_
 #define CALCULATOR_H_
 
-int evaluate(const char* eqn);
+
 int evaluateExpression(char* part);
 
 
