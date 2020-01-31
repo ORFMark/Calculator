@@ -19,7 +19,7 @@
 
 int main(void) {
 	char userEqn[EQN_MAX_LEN];
-	int result;
+	double result;
     int idx = 0;
     char userIn = '\0';
 
@@ -39,7 +39,7 @@ int main(void) {
     	} while (userIn != '\n' && idx < EQN_MAX_LEN);
     	if(userEqn[idx] != 'q' && userEqn[idx] != 'Q') {
     		result = evaluateExpression(userEqn);
-    		printf("%d\n", result);
+    		printf("%0.03lf\n", result);
     		fflush(stdout);
     	}
 

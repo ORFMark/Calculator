@@ -9,7 +9,7 @@
 #define CALCULATOR_H_
 
 
-int evaluateExpression(char* part);
+double evaluateExpression(char* part);
 
 
 #endif /* CALCULATOR_H_ */
